@@ -3,6 +3,7 @@ import 'index_screen.dart';
 import 'index_screen.dart';
 import 'signup_screen.dart';
 import 'home_screen.dart';
+import 'forgot_pass3.dart';
 
 class forgotPassTwo extends StatelessWidget{
   @override
@@ -87,7 +88,9 @@ class forgotPassTwo extends StatelessWidget{
                               color: Colors.grey[600],
                               child: Text('Continue'),
                               onPressed: (){
-                                //FORGOT PASSWORD PAGE 3
+                                Navigator.push(context, MaterialPageRoute(
+                                    builder: (context)=> forgotPass3()
+                                )); //FORGOT PASSWORD PAGE 3
                               }
                           )
                       )
