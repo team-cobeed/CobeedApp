@@ -7,13 +7,25 @@ class homePage extends StatelessWidget{
   Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: new Text('Hamburger'),
           backgroundColor: Colors.white,
           iconTheme: IconThemeData(
             color: Colors.black, //change your color here
+            size: 100.00,
           ),
         ),
-        drawer: Siz,
+        drawer: Container(
+          width: 500,
+          child: Drawer(
+            child: ListView(
+              padding: EdgeInsets.zero,
+              children: <Widget> [
+                  Container(
+
+                  )
+              ],
+            ),
+          ),
+        ),
       );
   }
 }
