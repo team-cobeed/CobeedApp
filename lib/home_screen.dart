@@ -20,8 +20,13 @@ class homePage extends StatelessWidget{
               padding: EdgeInsets.zero,
               children: <Widget> [
                   Container(
+                    margin: EdgeInsets.fromLTRB(0, 40, 350, 0),
+                    child: IconButton(icon: Icon(
+                            Icons.arrow_back,
 
-                  )
+                      ),
+                    ),
+                  ),
               ],
             ),
           ),
