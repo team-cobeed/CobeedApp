@@ -108,9 +108,6 @@ class IndexScreen extends StatelessWidget{
             ),
           ),
         )
-
-
-
     );
   }
 }
