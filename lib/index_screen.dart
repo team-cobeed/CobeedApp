@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'signup_screen.dart';
 import 'home_screen.dart';
+import 'forgot_pass1.dart';
+
 
 class IndexScreen extends StatelessWidget{
   @override
@@ -48,8 +50,10 @@ class IndexScreen extends StatelessWidget{
                 FlatButton(
                   padding: EdgeInsets.fromLTRB(160, 0, 0, 30),
                   onPressed: (){
-                    // forgot password screen
-                  },
+                    Navigator.push(context, MaterialPageRoute(
+                        builder: (context)=>forgotPass()
+                    ));
+                  }, // forgot password
                   textColor: Colors.grey,
                   child: Text('Forgot Password?'),
                 ),
