@@ -9,6 +9,18 @@ class forgotPass3 extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          elevation: 0,
+          backgroundColor: Colors.white,
+          leading: IconButton(icon: Icon(
+            Icons.arrow_back,
+            color: Colors.grey,
+          ),
+            onPressed: (){
+              Navigator.pop(context, false);
+            },
+          ),
+        ),
         backgroundColor: Colors.white,
         body: Form(
           child: Padding(
@@ -16,7 +28,7 @@ class forgotPass3 extends StatelessWidget{
             child: ListView(
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.fromLTRB(50, 20, 50, 40),
+                  margin: EdgeInsets.fromLTRB(50, 0, 50, 20),
                   child: Align(
                     child: Image.asset('images/logo3.png',),
 
@@ -37,7 +49,7 @@ class forgotPass3 extends StatelessWidget{
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.fromLTRB(70, 10, 45, 10),
+                  margin: EdgeInsets.fromLTRB(70, 10, 45, 0),
                   child: Center(
                     child: Text(
                       "New Password                                      ",
@@ -62,7 +74,7 @@ class forgotPass3 extends StatelessWidget{
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.fromLTRB(70, 10, 45, 10),
+                  margin: EdgeInsets.fromLTRB(70, 10, 45, 0),
                   child: Center(
                     child: Text(
                       "Confirm Password                                    ",
@@ -88,7 +100,7 @@ class forgotPass3 extends StatelessWidget{
                   ),
                 ),
                 Container(
-                  height: 140,
+                  height: 70,
                   child: Row(
                     children: <Widget> [
                       Container(
