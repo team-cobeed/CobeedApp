@@ -2,11 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:cobeed_app/drawer_screen.dart';
 import 'index_screen.dart';
 import 'home_screen.dart';
-<<<<<<< HEAD
-=======
+
 import 'drawer_screen.dart';
 import 'main.dart';
->>>>>>> staging
 
 class profilePage extends StatelessWidget{
   @override
