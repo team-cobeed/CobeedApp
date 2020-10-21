@@ -1,3 +1,4 @@
+import 'package:cobeed_app/create_post.dart';
 import 'package:cobeed_app/drawer_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -36,8 +37,7 @@ class homePage extends StatelessWidget{
                     color: Colors.grey[600],
                   ),
                 ),
-            )
-
+            ),
           ],
         ),
           body: Center(
@@ -137,7 +137,9 @@ class homePage extends StatelessWidget{
                             ),
                           ),
                           onPressed: (){
-
+                            Navigator.push(context, MaterialPageRoute(
+                                builder: (context)=>createPost()
+                            ));
                           },
 
                         ),
