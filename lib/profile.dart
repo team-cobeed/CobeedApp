@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:cobeed_app/drawer_screen.dart';
 import 'index_screen.dart';
 import 'home_screen.dart';
-
 import 'drawer_screen.dart';
 import 'main.dart';
 
