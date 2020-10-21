@@ -13,6 +13,28 @@ class CobeedApp extends StatelessWidget{
   }
 }
 
+class HomeMaterial extends StatefulWidget {
+  @override
+  _HomeMaterialState createState() => _HomeMaterialState();
+}
+class _HomeMaterialState extends State {
+  final _formKey = GlobalKey();
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text('Profile')),
+        body: Container(
+            child: Builder(
+                builder: (context) => Form(
+                  key: _formKey,
+                  child: Container(),
+                )
+            )
+        )
+    );
+  }
+}
+
 // void main() {
 //   runApp(MaterialApp(
 //
