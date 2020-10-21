@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'index_screen.dart';
+
 import 'profile.dart';
+
 
 class drawerPage extends StatelessWidget{
   @override
@@ -87,6 +89,7 @@ class drawerPage extends StatelessWidget{
                   ),
                 ),
                 onPressed: (){
+                  // Home
                   Navigator.push(context, MaterialPageRoute(
                       builder: (context)=>profilePage()
                   ));
