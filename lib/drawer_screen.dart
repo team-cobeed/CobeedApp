@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'index_screen.dart';
-
+import 'home_screen.dart';
+import 'signup_screen.dart';
 import 'profile.dart';
 
 
@@ -14,18 +15,7 @@ class drawerPage extends StatelessWidget{
           padding: EdgeInsets.zero,
           children: <Widget> [
             Container(
-              margin: EdgeInsets.fromLTRB(0, 40, 350, 0),
-              child: IconButton(icon: Icon(
-                Icons.arrow_back,
-
-              ),
-                onPressed: (){
-                  Navigator.pop(context, false);
-                },
-              ),
-            ),
-            Container(
-                margin:  EdgeInsets.fromLTRB(0, 30, 0, 0),
+                margin:  EdgeInsets.fromLTRB(0, 115, 0, 0),
                 child: Column(
                   children: <Widget>[
                     Container(
@@ -59,7 +49,9 @@ class drawerPage extends StatelessWidget{
                   ),
                 ),
                 onPressed: (){
-                  Navigator.pop(context, false);
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context)=>homePage()
+                  ));
                 },
               ),
             ),
