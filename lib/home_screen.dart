@@ -3,8 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'index_screen.dart';
 
-
-
 class homePage extends StatelessWidget{
 
   @override
