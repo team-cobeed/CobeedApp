@@ -1,3 +1,4 @@
+import 'package:cobeed_app/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'index_screen.dart';
 import 'home_screen.dart';
@@ -99,7 +100,10 @@ class drawerPage extends StatelessWidget{
                   ),
                 ),
                 onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context)=> settingsPage()
                   // Home
+                  ));
                 },
               ),
             ),
