@@ -147,13 +147,72 @@ class _DoctorsAppointment extends State<DropDown>{
                             ),
                           ),
                           Container(
+                            margin: EdgeInsets.only(top: 10, left: 5),
                              child: Row(
                                children: <Widget> [
                                  Container(
+                                   margin: EdgeInsets.only(right: 10),
+                                   width: 120,
 
+                                   child: RaisedButton(
+                                     color: Colors.white,
+
+                                     child: Text(
+                                         "1:15pm",
+                                        style: TextStyle(
+                                          color: Colors.grey[600]
+                                        ),
+                                     ),
+                                     onPressed: (){
+                                     },
+                                   ),
+                                 ),
+                                 Container(
+                                   margin: EdgeInsets.only(right: 10),
+                                   width: 120,
+
+                                   child: RaisedButton(
+                                     color: Colors.white,
+
+                                     child: Text(
+                                       "1:30pm",
+                                       style: TextStyle(
+                                           color: Colors.grey[600]
+                                       ),
+                                     ),
+                                     onPressed: (){
+                                     },
+                                   ),
+                                 ),
+                                 Container(
+                                   width: 120,
+
+                                   child: RaisedButton(
+                                     color: Colors.white,
+
+                                     child: Text(
+                                       "2:30pm",
+                                       style: TextStyle(
+                                           color: Colors.grey[600]
+                                       ),
+                                     ),
+                                     onPressed: (){
+                                     },
+                                   ),
                                  )
                                ],
                              ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 30, 265, 0),
+                            child: Text(
+                              "Tomorrow",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.grey[500],
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ),
                         ],
                       ),
