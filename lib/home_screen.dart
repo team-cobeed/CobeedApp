@@ -1,9 +1,8 @@
 import 'package:cobeed_app/create_post.dart';
 import 'package:cobeed_app/drawer_screen.dart';
-import 'package:cobeed_app/profile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'index_screen.dart';
+import 'package:cobeed_app/profile_inc.dart';
 
 class homePage extends StatelessWidget{
 
@@ -25,7 +24,7 @@ class homePage extends StatelessWidget{
                 ),
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(
-                      builder: (context)=>profilePage()
+                      builder: (context)=>profile_IncPage()
                   ));
                 },
               ),
@@ -43,7 +42,7 @@ class homePage extends StatelessWidget{
                   ),
                   onPressed: (){
                     Navigator.push(context, MaterialPageRoute(
-                        builder: (context)=>profilePage()
+                        builder: (context)=>profile_IncPage()
                     ));
                   },
                 ),
