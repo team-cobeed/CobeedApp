@@ -158,14 +158,7 @@ class homePage extends StatelessWidget{
                         child: Column(
                           children: <Widget> [
                             Container(
-                              margin: EdgeInsets.fromLTRB(380, 10, 0, 0),
-                              child: Icon(
-                                Icons.keyboard_arrow_down,
-                                color: Colors.grey[900],
-                              ),
-                            ),
-                            Container(
-                              margin:  EdgeInsets.fromLTRB(0, 0, 0, 0),
+                              margin:  EdgeInsets.fromLTRB(0, 20, 0, 0),
                               child:  Row(
                                 children: <Widget>[
                                   Container(
@@ -225,14 +218,7 @@ class homePage extends StatelessWidget{
                         child: Column(
                           children: <Widget> [
                             Container(
-                              margin: EdgeInsets.fromLTRB(380, 10, 0, 0),
-                              child: Icon(
-                                Icons.keyboard_arrow_down,
-                                color: Colors.grey[900],
-                              ),
-                            ),
-                            Container(
-                              margin:  EdgeInsets.fromLTRB(0, 0, 0, 0),
+                              margin:  EdgeInsets.fromLTRB(0, 20, 0, 0),
                               child:  Row(
                                 children: <Widget>[
                                   Container(
@@ -292,14 +278,7 @@ class homePage extends StatelessWidget{
                         child: Column(
                           children: <Widget> [
                             Container(
-                              margin: EdgeInsets.fromLTRB(380, 10, 0, 0),
-                              child: Icon(
-                                Icons.keyboard_arrow_down,
-                                color: Colors.grey[900],
-                              ),
-                            ),
-                            Container(
-                              margin:  EdgeInsets.fromLTRB(0, 0, 0, 0),
+                              margin:  EdgeInsets.fromLTRB(0, 20, 0, 0),
                               child:  Row(
                                 children: <Widget>[
                                   Container(
@@ -358,15 +337,15 @@ class homePage extends StatelessWidget{
                       Container(
                         child: Column(
                           children: <Widget> [
+                            // Container(
+                            //   margin: EdgeInsets.fromLTRB(380, 10, 0, 0),
+                            //   child: Icon(
+                            //     Icons.keyboard_arrow_down,
+                            //     color: Colors.grey[900],
+                            //   ),
+                            // ),
                             Container(
-                              margin: EdgeInsets.fromLTRB(380, 10, 0, 0),
-                              child: Icon(
-                                Icons.keyboard_arrow_down,
-                                color: Colors.grey[900],
-                              ),
-                            ),
-                            Container(
-                              margin:  EdgeInsets.fromLTRB(0, 0, 0, 0),
+                              margin:  EdgeInsets.fromLTRB(0, 20, 0, 0),
                               child:  Row(
                                 children: <Widget>[
                                   Container(
