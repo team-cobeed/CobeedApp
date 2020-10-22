@@ -113,7 +113,7 @@ class settingsPage extends StatelessWidget{
                                 ),
                                 onPressed: (){
                                   Navigator.push(context, MaterialPageRoute(
-                                      builder: (context)=> privacyPage()
+                                      builder: (context)=> Switching()
                                   ));
                                 },
                               ),
