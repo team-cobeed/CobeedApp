@@ -183,7 +183,7 @@ class profile_2 extends StatelessWidget{
            ),
            Container(
              padding: EdgeInsets.fromLTRB(25, 0, 25, 0),
-             margin: EdgeInsets.all(10),
+             margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
              child: TextField(
                obscureText: true,
                decoration: InputDecoration(
@@ -198,14 +198,14 @@ class profile_2 extends StatelessWidget{
              child: Row(
                children: <Widget> [
                  Container(
-                     height: 50,
-                     width: 170,
-                     margin: EdgeInsets.fromLTRB(205, 0, 0, 0),
+                     height: 45,
+                     width: 200,
+                     margin: EdgeInsets.fromLTRB(175, 0, 0, 0),
                      padding: EdgeInsets.fromLTRB(50, 10, 0, 0),
                      child: RaisedButton(
                          textColor: Colors.white,
                          color: Colors.grey[600],
-                         child: Text('Submit',
+                         child: Text('Save Changes',
                            style: TextStyle(
                              letterSpacing: 2,
                            ),
