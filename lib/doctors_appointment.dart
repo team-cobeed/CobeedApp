@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cobeed_app/doctors_appointment1.dart';
 import 'drawer_screen.dart';
 
 class DropDown extends StatefulWidget{
@@ -17,12 +18,12 @@ class _DoctorsAppointment extends State<DropDown>{
         appBar: AppBar(
         backgroundColor: Colors.white,
         title: Container(
-          margin: EdgeInsets.only(right: 20),
+          margin: EdgeInsets.only(right: 30),
           alignment: Alignment.center,
             child: Text(
                     "Doctor's Appointment",
                   style: TextStyle(
-                color: Colors.black,
+                color: Colors.grey[700],
             ),
           ),
         ),
@@ -356,7 +357,9 @@ class _DoctorsAppointment extends State<DropDown>{
                                 ],
                               ),
                               onPressed: (){
-
+                                Navigator.push(context, MaterialPageRoute(
+                                    builder: (context)=>DropDown1()
+                                ));
                               },
                               //color: Colors.grey,
                             ),
