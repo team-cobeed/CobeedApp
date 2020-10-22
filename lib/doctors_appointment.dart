@@ -83,7 +83,7 @@ class _DoctorsAppointment extends State<DropDown>{
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: 50, left: 10, right: 10),
+            margin: EdgeInsets.fromLTRB(10, 50, 10, 30),
             child: Container(
               child: Column(
                 children: <Widget> [
@@ -326,6 +326,39 @@ class _DoctorsAppointment extends State<DropDown>{
                                   ),
                                 ),
                               ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB( 30, 50, 30, 20),
+                            child: RaisedButton(
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                              color: Colors.grey,
+                              padding: EdgeInsets.all(8),
+                              child: Row(
+                                children: <Widget>[
+                                  Container(
+                                    margin: EdgeInsets.only(left: 57, right: 15),
+                                    child: Icon(
+                                      Icons.date_range,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Container(
+                                    child: Text(
+                                      'See All Appointment',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  )
+                                ],
+                              ),
+                              onPressed: (){
+
+                              },
+                              //color: Colors.grey,
                             ),
                           ),
                         ],
