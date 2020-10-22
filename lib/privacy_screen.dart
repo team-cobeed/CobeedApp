@@ -70,7 +70,7 @@ class _privacyPage extends State<Switching>{
                       ),
                     ),
                     Container(
-                      padding: const EdgeInsets.fromLTRB(0, 0, 20, 20),
+                      padding: const EdgeInsets.fromLTRB(0, 0, 70, 20),
                       child: Text(
                         'Lorem ipsum dolor sit amet',
                         style: TextStyle(
@@ -80,7 +80,7 @@ class _privacyPage extends State<Switching>{
                       ),
                     ),
                     Container(
-                      padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                      padding: const EdgeInsets.fromLTRB(250, 0, 0, 0),
                       child: Transform.scale(
                         scale: 1.3,
                         child: Switch(
@@ -121,7 +121,7 @@ class _privacyPage extends State<Switching>{
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.fromLTRB(0, 0, 20, 20),
+                        padding: const EdgeInsets.fromLTRB(0, 0, 70, 20),
                         child: Text(
                           'Lorem ipsum dolor sit amet',
                           style: TextStyle(
@@ -131,7 +131,7 @@ class _privacyPage extends State<Switching>{
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                        padding: const EdgeInsets.fromLTRB(250, 0, 0, 0),
                         child: Transform.scale(
                           scale: 1.3,
                           child: Switch(
