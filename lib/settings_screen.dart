@@ -1,4 +1,6 @@
 import 'package:cobeed_app/drawer_screen.dart';
+import 'package:cobeed_app/privacy_screen.dart';
+import 'package:cobeed_app/profile_1.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'index_screen.dart';
@@ -61,7 +63,9 @@ class settingsPage extends StatelessWidget{
                                   ),
                                 ),
                                 onPressed: (){
-                                  //button
+                                  Navigator.push(context, MaterialPageRoute(
+                                      builder: (context)=> profile_1()
+                                  ));
                                 },
                               ),
                             ]
@@ -108,7 +112,9 @@ class settingsPage extends StatelessWidget{
                                   ),
                                 ),
                                 onPressed: (){
-                                  //button
+                                  Navigator.push(context, MaterialPageRoute(
+                                      builder: (context)=> privacyPage()
+                                  ));
                                 },
                               ),
                             ]
