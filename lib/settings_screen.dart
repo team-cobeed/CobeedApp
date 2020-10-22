@@ -37,20 +37,38 @@ class settingsPage extends StatelessWidget{
                 alignment: Alignment.topLeft,
                 child: Column(
                     children: <Widget> [
-                      FlatButton(
-                        textColor: Colors.grey,
-                        child: Text(
-                          "Account",
-                          style: TextStyle(
-                            fontSize: 18,
-                          ),
+                      Container(
+                        child: Row(
+                            children: <Widget> [
+                              Container(
+                                margin: EdgeInsets.fromLTRB(0, 0, 20, 10),
+                                child: IconButton(
+                                  icon: Icon(
+                                    Icons.person,
+                                    size: 50,
+                                  ),
+                                  onPressed: () {
+                                    // do something
+                                  },
+                                ),
+                              ),
+                              FlatButton(
+                                textColor: Colors.grey,
+                                child: Text(
+                                  "Account",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                onPressed: (){
+                                  //button
+                                },
+                              ),
+                            ]
                         ),
-                        onPressed: (){
-                          //button
-                        },
                       ),
                       Container(
-                        margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                        margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
                         padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
                         decoration: BoxDecoration(
                           border: Border(
@@ -66,17 +84,35 @@ class settingsPage extends StatelessWidget{
                 alignment: Alignment.topLeft,
                 child: Column(
                     children: <Widget> [
-                      FlatButton(
-                        textColor: Colors.grey,
-                        child: Text(
-                          "Privacy",
-                          style: TextStyle(
-                            fontSize: 18,
-                          ),
+                      Container(
+                        child: Row(
+                            children: <Widget> [
+                              Container(
+                                margin: EdgeInsets.fromLTRB(0, 0, 20, 20),
+                                child: IconButton(
+                                  icon: Icon(
+                                    Icons.lock,
+                                    size: 50,
+                                  ),
+                                  onPressed: () {
+                                    // do something
+                                  },
+                                ),
+                              ),
+                              FlatButton(
+                                textColor: Colors.grey,
+                                child: Text(
+                                  "Privacy",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                onPressed: (){
+                                  //button
+                                },
+                              ),
+                            ]
                         ),
-                        onPressed: (){
-                          // Home
-                        },
                       ),
                       Container(
                         margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
@@ -90,36 +126,100 @@ class settingsPage extends StatelessWidget{
                     ]
                 ),
               ),
+              /*
               Container(
                 margin:  EdgeInsets.fromLTRB(0, 25, 0, 0),
                 alignment: Alignment.topLeft,
-                child: FlatButton(
-                  textColor: Colors.grey,
-                  child: Text(
-                    "Block",
-                    style: TextStyle(
-                      fontSize: 18,
+                child: Column(
+                    children: <Widget> [
+                      Container(
+                        child: Row(
+                            children: <Widget> [
+                              Container(
+                                margin: EdgeInsets.fromLTRB(0, 0, 20, 20),
+                                child: IconButton(
+                                  icon: Icon(
+                                    Icons.not_interested,
+                                    size: 50,
+                                  ),
+                                  onPressed: () {
+                                    // do something
+                                  },
+                                ),
+                              ),
+                              FlatButton(
+                                textColor: Colors.grey,
+                                child: Text(
+                                  "Block",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                onPressed: (){
+                                  //button
+                                },
+                              ),
+                            ]
+                        ),
+                      ),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                      padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                      decoration: BoxDecoration(
+                        border: Border(
+                            bottom: BorderSide(width: 2.0, color: Colors.grey)
+                        ),
+                      ),
                     ),
-                  ),
-                  onPressed: (){
-                    // Home
-                  },
+                  ]
                 ),
               ),
+              */
               Container(
                 margin:  EdgeInsets.fromLTRB(0, 25, 0, 0),
                 alignment: Alignment.topLeft,
-                child: FlatButton(
-                  textColor: Colors.grey,
-                  child: Text(
-                    "Help",
-                    style: TextStyle(
-                      fontSize: 18,
-                    ),
-                  ),
-                  onPressed: (){
-                    //home
-                  },
+                child: Column(
+                    children: <Widget> [
+                      Container(
+                        child: Row(
+                            children: <Widget> [
+                              Container(
+                                margin: EdgeInsets.fromLTRB(0, 0, 20, 20),
+                                child: IconButton(
+                                  icon: Icon(
+                                    Icons.help,
+                                    size: 50,
+                                  ),
+                                  onPressed: () {
+                                    // do something
+                                  },
+                                ),
+                              ),
+                              FlatButton(
+                                textColor: Colors.grey,
+                                child: Text(
+                                  "Help",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                onPressed: (){
+                                  //button
+                                },
+                              ),
+                            ]
+                        ),
+                      ),
+                      Container(
+                        margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                        padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                        decoration: BoxDecoration(
+                          border: Border(
+                              bottom: BorderSide(width: 2.0, color: Colors.grey)
+                          ),
+                        ),
+                      ),
+                    ]
                 ),
               ),
             ],
@@ -130,5 +230,3 @@ class settingsPage extends StatelessWidget{
     );
   }
 }
-
-//edit
