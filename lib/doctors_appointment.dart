@@ -214,6 +214,120 @@ class _DoctorsAppointment extends State<DropDown>{
                               ),
                             ),
                           ),
+                          Container(
+                            margin: EdgeInsets.only(top: 10, left: 5),
+                            child: Row(
+                              children: <Widget> [
+                                Container(
+                                  margin: EdgeInsets.only(right: 10),
+                                  width: 120,
+
+                                  child: RaisedButton(
+                                    color: Colors.white,
+
+                                    child: Text(
+                                      "10:00am",
+                                      style: TextStyle(
+                                          color: Colors.grey[600]
+                                      ),
+                                    ),
+                                    onPressed: (){
+                                    },
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(right: 10),
+                                  width: 120,
+
+                                  child: RaisedButton(
+                                    color: Colors.white,
+
+                                    child: Text(
+                                      "11:00am",
+                                      style: TextStyle(
+                                          color: Colors.grey[600]
+                                      ),
+                                    ),
+                                    onPressed: (){
+                                    },
+                                  ),
+                                ),
+                                Container(
+                                  width: 120,
+
+                                  child: RaisedButton(
+                                    color: Colors.white,
+
+                                    child: Text(
+                                      "1:00pm",
+                                      style: TextStyle(
+                                          color: Colors.grey[600]
+                                      ),
+                                    ),
+                                    onPressed: (){
+                                    },
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(left: 5),
+                            child: Row(
+                              children: <Widget> [
+                                Container(
+                                  margin: EdgeInsets.only(right: 10),
+                                  width: 120,
+
+                                  child: RaisedButton(
+                                    color: Colors.white,
+
+                                    child: Text(
+                                      "2:15pm",
+                                      style: TextStyle(
+                                          color: Colors.grey[600]
+                                      ),
+                                    ),
+                                    onPressed: (){
+                                    },
+                                  ),
+                                ),
+                                Container(
+                                  margin: EdgeInsets.only(right: 10),
+                                  width: 120,
+
+                                  child: RaisedButton(
+                                    color: Colors.white,
+
+                                    child: Text(
+                                      "4:30pm",
+                                      style: TextStyle(
+                                          color: Colors.grey[600]
+                                      ),
+                                    ),
+                                    onPressed: (){
+                                    },
+                                  ),
+                                ),
+                                Container(
+                                  width: 120,
+
+                                  child: RaisedButton(
+                                    color: Colors.white,
+
+                                    child: Text(
+                                      "6:30pm",
+                                      style: TextStyle(
+                                          color: Colors.grey[600]
+                                      ),
+                                    ),
+                                    onPressed: (){
+                                    },
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                   ),
