@@ -1,5 +1,6 @@
 import 'package:cobeed_app/create_post.dart';
 import 'package:cobeed_app/drawer_screen.dart';
+import 'package:cobeed_app/profile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'index_screen.dart';
@@ -23,19 +24,28 @@ class homePage extends StatelessWidget{
                   size: 40,
                 ),
                 onPressed: () {
-                  // do something
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context)=>profilePage()
+                  ));
                 },
               ),
             ),
             Container(
-                margin: EdgeInsets.fromLTRB(10, 16, 12, 16),
-                child: Text(
-                  "Anselmo",
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.grey[600],
+                margin: EdgeInsets.fromLTRB(0, 16, 0, 16),
+                child: FlatButton(
+                  child: Text(
+                    "Anselmo",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey[600],
+                    ),
                   ),
+                  onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(
+                        builder: (context)=>profilePage()
+                    ));
+                  },
                 ),
             ),
           ],
