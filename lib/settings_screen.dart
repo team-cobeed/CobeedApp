@@ -39,32 +39,32 @@ class settingsPage extends StatelessWidget{
                     children: <Widget> [
                       Container(
                         child: Row(
-                            children: <Widget> [
-                              Container(
-                                margin: EdgeInsets.fromLTRB(0, 0, 20, 10),
-                                child: IconButton(
-                                  icon: Icon(
-                                    Icons.person,
-                                    size: 50,
-                                  ),
-                                  onPressed: () {
-                                    // do something
-                                  },
+                          children: <Widget> [
+                            Container(
+                              margin: EdgeInsets.fromLTRB(0, 0, 20, 10),
+                              child: IconButton(
+                                icon: Icon(
+                                  Icons.person,
+                                  size: 50,
                                 ),
-                              ),
-                              FlatButton(
-                                textColor: Colors.grey,
-                                child: Text(
-                                  "Account",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                  ),
-                                ),
-                                onPressed: (){
-                                  //button
+                                onPressed: () {
+                                  // do something
                                 },
                               ),
-                            ]
+                            ),
+                            FlatButton(
+                              textColor: Colors.grey,
+                              child: Text(
+                                "Account",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                ),
+                              ),
+                              onPressed: (){
+                                //button
+                              },
+                            ),
+                          ]
                         ),
                       ),
                       Container(
@@ -210,16 +210,16 @@ class settingsPage extends StatelessWidget{
                             ]
                         ),
                       ),
-                      Container(
-                        margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
-                        decoration: BoxDecoration(
-                          border: Border(
-                              bottom: BorderSide(width: 2.0, color: Colors.grey)
-                          ),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                      padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                      decoration: BoxDecoration(
+                        border: Border(
+                            bottom: BorderSide(width: 2.0, color: Colors.grey)
                         ),
                       ),
-                    ]
+                    ),
+                  ]
                 ),
               ),
             ],
