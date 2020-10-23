@@ -30,7 +30,6 @@ class signupPage extends StatelessWidget{
                       style: TextStyle(
                         //fontWeight: FontWeight.bold,
                         fontSize: 24,
-
                       ),
                     ),
                   ),

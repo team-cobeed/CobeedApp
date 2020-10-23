@@ -64,25 +64,198 @@ class helpPage extends StatelessWidget{
                 height: 200,
               ),
               Container(
-                margin: const EdgeInsets.fromLTRB(40, 40, 40, 10),
-                padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
-                child: Text(
-                  "How to change your account password",
+                margin: const EdgeInsets.fromLTRB(40, 20, 5, 0),
+                child: Text('Top Questions',
+                  textAlign: TextAlign.justify,
                   style: TextStyle(
-                    fontSize: 16,
-                    //color: Colors.grey[100],
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey[600],
                   ),
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.fromLTRB(40, 15, 40, 10),
+                padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                child: Column(
+                  children: <Widget> [
+                    Container(
+                      child: Text(
+                        "How to change your account password",
+                        style: TextStyle(
+                          fontSize: 16,
+                          //color: Colors.grey[100],
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                      padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                      decoration: BoxDecoration(
+                        border: Border(
+                            bottom: BorderSide(width: 2.0, color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        "Lorem ipsum dolor sit amet consectetur",
+                        style: TextStyle(
+                          fontSize: 16,
+                          //color: Colors.grey[100],
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                      padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                      decoration: BoxDecoration(
+                        border: Border(
+                            bottom: BorderSide(width: 2.0, color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        "sed do eiusmod tempor incididunt ut labore",
+                        style: TextStyle(
+                          fontSize: 16,
+                          //color: Colors.grey[100],
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                      padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                      decoration: BoxDecoration(
+                        border: Border(
+                            bottom: BorderSide(width: 2.0, color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        "Ut enim ad minim veniam, quis nostrud",
+                        style: TextStyle(
+                          fontSize: 16,
+                          //color: Colors.grey[100],
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
+                      padding: EdgeInsets.fromLTRB(150, 0, 120, 0),
+                      decoration: BoxDecoration(
+                        border: Border(
+                            bottom: BorderSide(width: 2.0, color: Colors.grey)
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        "Nemo enim ipsam voluptatem quia volup",
+                        style: TextStyle(
+                          fontSize: 16,
+                          //color: Colors.grey[100],
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 decoration: BoxDecoration(
                   color: Colors.white,
-
                   boxShadow: [
                     BoxShadow(color: Colors.grey[400], spreadRadius: 1),
                   ],
                 ),
-                height: 200,
+                height: 210,
               ),
-              /*
+              Container(
+                margin: const EdgeInsets.fromLTRB(40, 20, 5, 0),
+                child: Text('New Questions?',
+                  textAlign: TextAlign.justify,
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey[600],
+                  ),
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.fromLTRB(40, 15, 40, 30),
+                padding: const EdgeInsets.fromLTRB(10, 10, 10, 10),
+                child: Column(
+                  children: <Widget> [
+                    Container(
+                      child: Row(
+                        children: <Widget> [
+                          Text("Send now to "),
+                          Text(
+                            "cobeed@gmail.com",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold
+                            ),
+                          ),
+                        ]
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(top: 10, left: 10, right: 10),
+                      child: TextField(
+
+                        keyboardType: TextInputType.multiline,
+                        maxLines: 4,
+                        style: TextStyle(
+                          decoration: TextDecoration.none,
+                          fontSize: 18,
+                        ),
+                        decoration: new InputDecoration(
+                          hintText: "Write your question here.",
+                          border: OutlineInputBorder(),
+                        ),
+                      ),
+                    ),
+                    Container(
+                        height: 40,
+                        width: 150,
+                        margin: EdgeInsets.fromLTRB(140, 0, 0, 0),
+                        padding: EdgeInsets.fromLTRB(50, 10, 0, 0),
+                        child: RaisedButton(
+                            textColor: Colors.white,
+                            color: Colors.redAccent,
+                            child: Text(
+                              'Send',
+                              style: TextStyle(
+                                letterSpacing: 2,
+                              ),
+                            ),
+                            onPressed: (){
+                              //future slot //Index Screen
+                            }
+                        )
+                    )
+                  ],
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  boxShadow: [
+                    BoxShadow(color: Colors.grey[400], spreadRadius: 1),
+                  ],
+                ),
+                height: 210,
+              ),
+
+            ],
+          ),
+        ),
+        drawer: drawerPage()
+
+    );
+  }
+}
+
+//edit
+/*
               Table(
                 columnWidths: {1: FractionColumnWidth(.2)},
                 border: TableBorder.all(),
@@ -109,13 +282,3 @@ class helpPage extends StatelessWidget{
                   ),
                 ],
               ),*/
-            ],
-          ),
-        ),
-        drawer: drawerPage()
-
-    );
-  }
-}
-
-//edit
