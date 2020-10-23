@@ -3,16 +3,15 @@ import 'package:cobeed_app/drawer_screen.dart';
 import 'drawer_screen.dart';
 import 'profile_1.dart';
 
-
 class profile_IncPage extends StatelessWidget{
   @override
 
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.redAccent,
           iconTheme: IconThemeData(
-            color: Colors.black, //change your color here
+            color: Colors.white, //change your color here
             size: 100.00,
           ),
         ),
@@ -135,7 +134,7 @@ class profile_IncPage extends StatelessWidget{
                             padding: EdgeInsets.fromLTRB(50, 10, 0, 0),
                             child: RaisedButton(
                                 textColor: Colors.white,
-                                color: Colors.grey[600],
+                                color: Colors.redAccent,
                                 child: Text('Submit',
                                   style: TextStyle(
                                     letterSpacing: 2,

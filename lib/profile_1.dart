@@ -8,9 +8,9 @@ class profile_1 extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.redAccent,
         iconTheme: IconThemeData(
-          color: Colors.black, //change your color here
+          color: Colors.white, //change your color here
           size: 100.00,
         ),
       ),
@@ -91,7 +91,7 @@ class profile_1 extends StatelessWidget{
                       width: 150,
                       child: RaisedButton(
                         textColor: Colors.white,
-                        color: Colors.grey[600],
+                        color: Colors.redAccent,
                         child: Text('Edit Profile',
                           style: TextStyle(
                             letterSpacing: 2,

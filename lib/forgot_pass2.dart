@@ -13,7 +13,7 @@ class forgotPassTwo extends StatelessWidget{
           backgroundColor: Colors.white,
           leading: IconButton(icon: Icon(
             Icons.arrow_back,
-            color: Colors.grey,
+            color: Colors.grey[600],
           ),
             onPressed: (){
               Navigator.pop(context, false);
@@ -84,7 +84,7 @@ class forgotPassTwo extends StatelessWidget{
                           padding: EdgeInsets.fromLTRB(50, 10, 0, 0),
                           child: RaisedButton(
                               textColor: Colors.white,
-                              color: Colors.grey[600],
+                              color: Colors.redAccent,
                               child: Text('Continue'),
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(

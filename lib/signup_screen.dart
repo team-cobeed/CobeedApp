@@ -6,10 +6,10 @@ class signupPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.redAccent,
           leading: IconButton(icon: Icon(
               Icons.arrow_back,
-            color: Colors.grey,
+            color: Colors.white,
           ),
             onPressed: (){
               Navigator.pop(context, false);

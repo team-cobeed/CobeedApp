@@ -29,20 +29,34 @@ class _privacyPage extends State<Switching>{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.redAccent,
           centerTitle: true,
-          title: Text(
-            "Privacy",
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: Colors.grey[600],
-            ),
-          ),
           iconTheme: IconThemeData(
-            color: Colors.black, //change your color here
+            color: Colors.white, //change your color here
             size: 100.00,
           ),
+          actions: <Widget>[
+            Container(
+              child: IconButton(
+                icon: Icon(
+                  Icons.lock,
+                  size: 40,
+                  color: Colors.white
+                ),
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.fromLTRB(0, 16, 150, 16),
+                child: Text(
+                  "Privacy",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+          ],
         ),
         body: Center(
           child: ListView(

@@ -10,9 +10,9 @@ class homePage extends StatelessWidget{
   Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.redAccent,
           iconTheme: IconThemeData(
-            color: Colors.black, //change your color here
+            color: Colors.white, //change your color here
             size: 100.00,
           ),
           actions: <Widget>[
@@ -21,6 +21,7 @@ class homePage extends StatelessWidget{
                 icon: Icon(
                   Icons.person,
                   size: 40,
+                  color: Colors.white,
                 ),
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(
@@ -37,7 +38,7 @@ class homePage extends StatelessWidget{
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
-                      color: Colors.grey[600],
+                      color: Colors.white,
                     ),
                   ),
                   onPressed: (){
@@ -109,7 +110,6 @@ class homePage extends StatelessWidget{
                           style: TextStyle(
                             fontSize: 20,
                             decoration: TextDecoration.underline,
-
                         ),
                         ),
                       ),

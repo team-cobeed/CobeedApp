@@ -73,7 +73,7 @@ class forgotPass extends StatelessWidget{
                         padding: EdgeInsets.fromLTRB(50, 10, 0, 0),
                         child: RaisedButton(
                           textColor: Colors.white,
-                          color: Colors.grey[600],
+                          color: Colors.redAccent,
                           child: Text('Search'),
                           onPressed: (){
                             Navigator.push(context, MaterialPageRoute(

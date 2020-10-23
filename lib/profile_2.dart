@@ -9,9 +9,9 @@ class profile_2 extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.redAccent,
         iconTheme: IconThemeData(
-          color: Colors.black, //change your color here
+          color: Colors.white, //change your color here
           size: 100.00,
         ),
       ),
@@ -204,8 +204,9 @@ class profile_2 extends StatelessWidget{
                      padding: EdgeInsets.fromLTRB(50, 10, 0, 0),
                      child: RaisedButton(
                          textColor: Colors.white,
-                         color: Colors.grey[600],
-                         child: Text('Save Changes',
+                         color: Colors.redAccent,
+                         child: Text(
+                           'Save Changes',
                            style: TextStyle(
                              letterSpacing: 2,
                            ),

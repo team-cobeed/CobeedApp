@@ -18,7 +18,6 @@ class IndexScreen extends StatelessWidget{
                   margin: EdgeInsets.fromLTRB(50, 20, 50, 40),
                   child: Align(
                     child: Image.asset('images/logo3.png',),
-
                   ),
                 ),
                 Container(
@@ -94,9 +93,9 @@ class IndexScreen extends StatelessWidget{
 
                         child: RaisedButton(
                           padding: EdgeInsets.fromLTRB(25, 12, 25, 12),
-                          textColor: Colors.grey,
+                          textColor: Colors.white,
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                          color: Colors.white,
+                          color: Colors.redAccent,
                           child: Text('Sign Up'),
                           onPressed: (){
                             Navigator.push(context, MaterialPageRoute(

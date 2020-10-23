@@ -13,20 +13,20 @@ class _DoctorsAppointment1 extends State<DropDown1>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.redAccent,
         title: Container(
           margin: EdgeInsets.only(right: 35),
           alignment: Alignment.center,
           child: Text(
             "Doctor's Appointment",
             style: TextStyle(
-              color: Colors.grey[700],
+              color: Colors.white,
             ),
           ),
         ),
         leading: IconButton(icon: Icon(
           Icons.arrow_back,
-          color: Colors.grey,
+          color: Colors.white,
         ),
           onPressed: (){
             Navigator.pop(context, false);
@@ -191,7 +191,7 @@ class _DoctorsAppointment1 extends State<DropDown1>{
                     width: 120,
                     child: RaisedButton(
                         textColor: Colors.white,
-                        color: Colors.grey[600],
+                        color: Colors.redAccent,
                         child: Text('Book Now',
                           style: TextStyle(
                             letterSpacing: 2,
@@ -262,7 +262,7 @@ class _DoctorsAppointment1 extends State<DropDown1>{
                     width: 120,
                     child: RaisedButton(
                         textColor: Colors.white,
-                        color: Colors.grey[600],
+                        color: Colors.redAccent,
                         child: Text('Book Now',
                           style: TextStyle(
                             letterSpacing: 2,
@@ -334,7 +334,7 @@ class _DoctorsAppointment1 extends State<DropDown1>{
                     width: 120,
                     child: RaisedButton(
                         textColor: Colors.white,
-                        color: Colors.grey[600],
+                        color: Colors.redAccent,
                         child: Text('Book Now',
                           style: TextStyle(
                             letterSpacing: 2,

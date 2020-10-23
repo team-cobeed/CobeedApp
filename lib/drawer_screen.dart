@@ -25,7 +25,7 @@ class drawerPage extends StatelessWidget{
                       child: Icon(
                         Icons.account_circle,
                         size: 75,
-                        color: Colors.grey[500],
+                        color: Colors.redAccent,
                       ),
                     ),
                     Container(
@@ -113,7 +113,7 @@ class drawerPage extends StatelessWidget{
             Container(
               margin: EdgeInsets.fromLTRB(0, 50, 0, 0),
               child: RaisedButton(
-                color: Colors.grey,
+                color: Colors.redAccent,
                 padding: EdgeInsets.all(23),
                 child: Text(
                   'Sign Out',

@@ -16,19 +16,19 @@ class _DoctorsAppointment extends State<DropDown>{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.redAccent,
         title: Container(
           margin: EdgeInsets.only(right: 30),
           alignment: Alignment.center,
-            child: Text(
-                    "Doctor's Appointment",
-                  style: TextStyle(
-                color: Colors.grey[700],
+          child: Text(
+            "Doctor's Appointment",
+            style: TextStyle(
+              color: Colors.white,
             ),
           ),
         ),
           iconTheme: IconThemeData(
-            color: Colors.black, //change your color here
+            color: Colors.white, //change your color here
             size: 100.00,
           ),
       ),
@@ -333,7 +333,7 @@ class _DoctorsAppointment extends State<DropDown>{
                             margin: EdgeInsets.fromLTRB( 30, 50, 30, 20),
                             child: RaisedButton(
                               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                              color: Colors.grey,
+                              color: Colors.redAccent,
                               padding: EdgeInsets.all(8),
                               child: Row(
                                 children: <Widget>[
