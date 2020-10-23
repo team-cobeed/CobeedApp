@@ -1,4 +1,5 @@
 import 'package:cobeed_app/drawer_screen.dart';
+import 'package:cobeed_app/help_screen.dart';
 import 'package:cobeed_app/privacy_screen.dart';
 import 'package:cobeed_app/profile_1.dart';
 import 'package:flutter/cupertino.dart';
@@ -50,7 +51,9 @@ class settingsPage extends StatelessWidget{
                                     size: 50,
                                   ),
                                   onPressed: () {
-                                    // do something
+                                    Navigator.push(context, MaterialPageRoute(
+                                        builder: (context)=> profile_1()
+                                    ));// do something
                                   },
                                 ),
                               ),
@@ -99,7 +102,9 @@ class settingsPage extends StatelessWidget{
                                     size: 50,
                                   ),
                                   onPressed: () {
-                                    // do something
+                                    Navigator.push(context, MaterialPageRoute(
+                                        builder: (context)=> Switching()
+                                    ));// do something
                                   },
                                 ),
                               ),
@@ -197,7 +202,9 @@ class settingsPage extends StatelessWidget{
                                     size: 50,
                                   ),
                                   onPressed: () {
-                                    // do something
+                                    Navigator.push(context, MaterialPageRoute(
+                                        builder: (context)=> helpPage()
+                                    ));
                                   },
                                 ),
                               ),
@@ -210,7 +217,9 @@ class settingsPage extends StatelessWidget{
                                   ),
                                 ),
                                 onPressed: (){
-                                  //button
+                                  Navigator.push(context, MaterialPageRoute(
+                                      builder: (context)=> helpPage()
+                                  ));
                                 },
                               ),
                             ]

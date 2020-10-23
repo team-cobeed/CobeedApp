@@ -33,7 +33,7 @@ class profile_1 extends StatelessWidget{
                 ],
               ),
               height: 200,
-              ),
+            ),
             Container(
               margin: const EdgeInsets.fromLTRB(10, 30, 10, 30),
               child: Center(

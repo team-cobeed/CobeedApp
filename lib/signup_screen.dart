@@ -158,9 +158,9 @@ class signupPage extends StatelessWidget{
 
                         child: RaisedButton(
                           padding: EdgeInsets.fromLTRB(25, 12, 25, 12),
-                          textColor: Colors.grey,
+                          textColor: Colors.white,
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                          color: Colors.white,
+                          color: Colors.redAccent,
                           child: Text('Submit'),
                           onPressed: (){
                             Navigator.push(context, MaterialPageRoute(

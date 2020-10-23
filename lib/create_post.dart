@@ -11,14 +11,14 @@ class createPost extends StatelessWidget{
             child: Text(
               "Create Post",
               style: TextStyle(
-                color: Colors.grey[600],
+                color: Colors.white,
               ),
             ),
           ),
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.redAccent,
           leading: IconButton(icon: Icon(
             Icons.arrow_back,
-            color: Colors.grey,
+            color: Colors.white,
             ),
             onPressed: (){
             Navigator.pop(context, false);
@@ -71,12 +71,12 @@ class createPost extends StatelessWidget{
                           child: RaisedButton(
                             padding: EdgeInsets.fromLTRB(25, 10, 25, 10),
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                            color: Colors.white,
+                            color: Colors.redAccent,
                             child: Text(
                               "POST",
                               style: TextStyle(
                                 fontSize: 16,
-                                color: Colors.grey[700],
+                                color: Colors.white,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),

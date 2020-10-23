@@ -46,7 +46,7 @@ class _privacyPage extends State<Switching>{
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(0, 16, 150, 16),
+              margin: EdgeInsets.fromLTRB(10, 16, 150, 16),
                 child: Text(
                   "Privacy",
                   style: TextStyle(
