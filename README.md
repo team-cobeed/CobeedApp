@@ -1,16 +1,13 @@
-# cobeed_app
-
-CobeedApp
+# CobeedApp
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Cobeed App: Your personal quarantine assistant.
 
-A few resources to get you started if this is your first Flutter project:
+Cobeed App books an appointment with a certified affiliate doctor that will check patients,
+if they have concerns regarding their health to see whether they are really infected with the disease. 
+This will ensure the PUQ’s queries thus keeping the system of handling COVID patients in the area in an organized manner.
+It allows users to post their Quarantine or COVID stories. Which can be viewed by other users as well. 
+But users must create or have an existing account to be able to share their stories. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
