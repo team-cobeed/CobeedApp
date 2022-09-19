@@ -1,8 +1,8 @@
 # CobeedApp UI
 
-Authors : Anselmo Oduca, Brandon John Sarte
+Authors : Anselmo Oduca, Brandon John Sarte, James Joseph Luna
 
-Emails : anselmood06@gmail.com, brandon.johnds@gmail.com
+Emails : anselmood06@gmail.com, brandon.johnds@gmail.com, jjluna@gbox.adnu.edu.ph
 
 ## About
 Cobeed App: Your personal quarantine assistant. 
