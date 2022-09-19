@@ -1,8 +1,8 @@
-# CobeedApp
+# CobeedApp UI
 
 ## Getting Started
 
-Cobeed App: Your personal quarantine assistant.
+Cobeed App: Your personal quarantine assistant. 
 
 Cobeed App books an appointment with a certified affiliate doctor that will check patients,
 if they have concerns regarding their health to see whether they are really infected with the disease. 
